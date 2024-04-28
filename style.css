@@ -1,0 +1,12 @@
+:root{
+    --cor--primaria:#5E2129;
+    --cor--secundaria: #F6F6F6;
+    --cor--terciaria: #000000;
+
+    --fonte--titulo: "Krona One", sans-serif;
+    --fonte--texto:  "Montserrat", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
