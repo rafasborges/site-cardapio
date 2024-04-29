@@ -15,7 +15,7 @@
 
 .tipo_cardapio {
     text-align: center;
-    margin: 40px 0;
+    margin: 20px 0;
     color: var(--cor--primaria);
     font-size: 35px;
 }
@@ -62,8 +62,11 @@ a {
   background: var(--cor--primaria);
   padding-inline: 16px;
   z-index: 2;
-  position: relative;
+  position: fixed; /* Adiciona esta linha */
+  width: 100%; /* Ocupa toda a largura da janela */
+  top: 0; /* Fixa o cabeçalho no topo */
 }
+
 
 .nav {
   max-width: 1280px;
@@ -93,6 +96,7 @@ a {
 }
 
 .hero {
+  padding-top: 70px; /* Adiciona espaço para o header */
   height: calc(100vh - 70px);
   background: center / cover no-repeat url("./bg.jpg");
 }
@@ -103,6 +107,7 @@ a {
   background: none;
   border-top: 3px solid #fff;
   cursor: pointer;
+  z-index: 3; 
 }
 
 .hamburger::after,
@@ -121,6 +126,8 @@ a {
   .hamburger {
     display: block;
     z-index: 1;
+    top: 16px;
+    right: 16px;
   }
 
   .nav-list {
