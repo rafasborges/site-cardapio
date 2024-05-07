@@ -25,7 +25,7 @@
     color: white;
     width: 320px;
     border-radius: 10px;
-    margin: 40px auto;
+    margin: 40px 5px;
     display: flex;
     padding: 10px;
     position: relative;
@@ -52,7 +52,13 @@
     bottom: 10px;
     right: 10px;
 }
-  
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 a {
   font-family: sans-serif;
   text-decoration: none;
@@ -67,12 +73,11 @@ a {
   top: 0; /* Fixa o cabeçalho no topo */
 }
 
-
 .nav {
   max-width: 1280px;
   height: 70px;
   margin-inline: auto;
-
+  padding-right: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
