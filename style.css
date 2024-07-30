@@ -41,6 +41,10 @@
     margin-bottom: 20px;
 }
 
+img {
+  margin: auto;
+}
+
 .peso {
     font-size: 19px;
     margin-bottom: 40px;
