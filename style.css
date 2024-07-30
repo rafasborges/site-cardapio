@@ -69,6 +69,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .header {
   background: var(--cor--primaria);
   padding-inline: 16px;
