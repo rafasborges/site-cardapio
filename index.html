@@ -1,1037 +1,677 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cardápio - Queijos</title>
-    <link rel="stylesheet" href="style.css"> 
-    <link rel="icon" href="pictures/cardapio.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="pictures/cardapio.png" type="image/x-icon" />
     <script defer src="app.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <nav class="nav">
-          <h1 id="title">Cardápio</h1>
-          <button class="hamburger"></button>
-          <ul class="nav-list">
-            <li><a href="index.html">Queijos</a></li>
-            <li><a href="bufala.html">Búfala</a></li>
-            <li><a href="zero_lactose.html">Zero Lactose</a></li>
-            <li><a href="doces.html">Doces</a></li>
-            <li><a href="variedades.html">Variedades</a></li>
-            <li><a href="https://wa.me/553799077244" target="_blank" rel="noopener noreferrer">Contato</a></li>
-          </ul>
-        </nav>
-      </header>
+      <nav class="nav">
+        <h1 id="title">Cardápio</h1>
+        <button class="hamburger"></button>
+        <ul class="nav-list">
+          <li><a href="index.html">Queijos</a></li>
+          <li><a href="bufala.html">Búfala</a></li>
+          <li><a href="zero_lactose.html">Zero Lactose</a></li>
+          <li><a href="doces.html">Doces</a></li>
+          <li><a href="variedades.html">Variedades</a></li>
+          <li>
+            <a
+              href="https://wa.me/553799077244"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main class="hero">
-        <h1 class="tipo_cardapio">
-            Queijos
-        </h1>
-
-        <div class="produtos">
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Desidratado ( Sabores: Provolone Puro, Provolone com Orégano, Provolone com alho, Povolone com Lemon Peppers, Misto, Gouda, Parmesão, Coalho)
-                    </h2>
-                    <p class="peso">
-                        Peso: 250g
-                    </p>
-                    <p class="preço">
-                        R$25,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Kit (Palito Branco, Palito Temperado, Provolone Defumado, Provolone com Orégano e Provolone com Pimenta e Orégano) 
-                    </h2>
-                    <p class="peso">
-                        Peso: 750g
-                    </p>
-                    <p class="preço">
-                        R$50,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Kit com Salame (Provolone Defumado, Provolone com Orégano, Provolone com Pimenta e Orégano e Lombo Defumado)
-                    </h2>
-                    <p class="peso">
-                        Peso: 850g
-                    </p>
-                    <p class="preço">
-                        R$52,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Kit Parmesão (Parmesão Capa Preta, Parmesão Fresco, Parmesão Defumado e Parmesão Temperado)
-                    </h2>
-                    <p class="peso">
-                        Peso: 850g
-                    </p>
-                    <p class="preço">
-                        R$54,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Maturado Duetto
-                    </h2>
-                    <p class="peso">
-                        Peso: 550g
-                    </p>
-                    <p class="preço">
-                        R$43,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Caipira
-                    </h2>
-                    <p class="peso">
-                        Peso: 900g
-                    </p>
-                    <p class="preço">
-                        R$49,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Caipira Van-Ita 
-                    </h2>
-                    <p class="peso">
-                        Peso: 900g
-                    </p>
-                    <p class="preço">
-                        R$49,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Frescal na Caixinha
-                    </h2>
-                    <p class="peso">
-                        Peso: 550g
-                    </p>
-                    <p class="preço">
-                        R$35,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Padrão 
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Padrão Dulei
-                    </h2>
-                    <p class="peso">
-                        Peso: 800g
-                    </p>
-                    <p class="preço">
-                        R$50,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Padrão com Alho Poró
-                    </h2>
-                    <p class="peso">
-                        Peso: 500g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Padrão Dulei 
-                    </h2>
-                    <p class="peso">
-                        Peso: 500g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Padrão Maturado 
-                    </h2>
-                    <p class="peso">
-                        Peso: 600g
-                    </p>
-                    <p class="preço">
-                        R$39,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Padrão PJ  
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$39,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Padrão Recheado com Requeijão  
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$46,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Padrão Santa Rita   
-                    </h2>
-                    <p class="peso">
-                        Peso: 550g
-                    </p>
-                    <p class="preço">
-                        R$39,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Minas Padrão Van-Ita    
-                    </h2>
-                    <p class="peso">
-                        Peso: 600g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Mussarela    
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Napolitano (Parmesão Fresco, Tipo Reino, Tipo Prato e Provolone Defumado)    
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Nó Branco     
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Nó Defumado    
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Palito com Pimenta e Orégano 
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Palito 
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Parmesão ao Vinho 
-                    </h2>
-                    <p class="peso">
-                        Peso: 600g
-                    </p>
-                    <p class="preço">
-                        R$44,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Parmesão Capa Preta 
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$44,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Parmesão Defumado  
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$44,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Parmesão Defumado Alagoas  
-                    </h2>
-                    <p class="peso">
-                        Peso: 550g
-                    </p>
-                    <p class="preço">
-                        R$52,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Parmesão Envelhecido  
-                    </h2>
-                    <p class="peso">
-                        Peso: 680g
-                    </p>
-                    <p class="preço">
-                        R$44,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Parmesão Fresco  
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Provolone com Orégano 
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Provolone com Pimenta e Orégano
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Provolone com Salame
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Provolone Defumado com Alho
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Provolone Alagoa Rio Acima 
-                    </h2>
-                    <p class="peso">
-                        Peso: 950g
-                    </p>
-                    <p class="preço">
-                        R$85,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Canastra Curado  
-                    </h2>
-                    <p class="peso">
-                        Peso: 1kg
-                    </p>
-                    <p class="preço">
-                        R$50,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Canastra Curado  
-                    </h2>
-                    <p class="peso">
-                        Peso: 1kg
-                    </p>
-                    <p class="preço">
-                        R$50,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Canastra Fresco  
-                    </h2>
-                    <p class="peso">
-                        Peso: 1kg
-                    </p>
-                    <p class="preço">
-                        R$50,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Canastra Premiado Capão Grande  
-                    </h2>
-                    <p class="preço">
-                        R$115,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Canastra Premiado Johne  
-                    </h2>
-                    <p class="peso">
-                        Peso: 1kg
-                    </p>
-                    <p class="preço">
-                        R$115,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Canastra Premiado Reinaldo 
-                    </h2>
-                    <p class="peso">
-                        Peso: 1kg
-                    </p>
-                    <p class="preço">
-                        R$115,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Coalho  
-                    </h2>
-                    <p class="peso">
-                        Peso: 600g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Prato Cobocó  
-                    </h2>
-                    <p class="peso">
-                        Peso: 500g
-                    </p>
-                    <p class="preço">
-                        R$39,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Tipo Brie  
-                    </h2>
-                    <p class="peso">
-                        Peso: 250g
-                    </p>
-                    <p class="preço">
-                        R$33,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Tipo Colby Jack  
-                    </h2>
-                    <p class="peso">
-                        Peso: 500g
-                    </p>
-                    <p class="preço">
-                        R$45,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Tipo Edam  
-                    </h2>
-                    <p class="peso">
-                        Peso: 350g
-                    </p>
-                    <p class="preço">
-                        R$43,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Tipo Gorgonzola 
-                    </h2>
-                    <p class="peso">
-                        Peso: 250g
-                    </p>
-                    <p class="preço">
-                        R$30,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Tipo Gouda 
-                    </h2>
-                    <p class="peso">
-                        Peso: 350g
-                    </p>
-                    <p class="preço">
-                        R$43,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Tipo Gruyère 
-                    </h2>
-                    <p class="peso">
-                        Peso: 450g
-                    </p>
-                    <p class="preço">
-                        R$46,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Tipo Massdam  
-                    </h2>
-                    <p class="peso">
-                        Peso: 500g
-                    </p>
-                    <p class="preço">
-                        R$40,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Tipo Morbier 
-                    </h2>
-                    <p class="peso">
-                        Peso: 500g
-                    </p>
-                    <p class="preço">
-                        R$42,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Queijo Tipo Reino 
-                    </h2>
-                    <p class="peso">
-                        Peso: 350g
-                    </p>
-                    <p class="preço">
-                        R$43,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Requeijão com Raspas em Barra
-                    </h2>
-                    <p class="peso">
-                        Peso: 550g
-                    </p>
-                    <p class="preço">
-                        R$39,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Requeijão em Barra 
-                    </h2>
-                    <p class="peso">
-                        Peso: 550g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Requeijão Pote 
-                    </h2>
-                    <p class="peso">
-                        Peso: 400g
-                    </p>
-                    <p class="preço">
-                        R$25,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Ricota
-                    </h2>
-                    <p class="peso">
-                        Peso: 600g
-                    </p>
-                    <p class="preço">
-                        R$25,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Romeu e Julieta
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trança ao Vinho
-                    </h2>
-                    <p class="peso">
-                        Peso: 630g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trança Branca 
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trança com Tomate Seco e Alho 
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trança com Tomate Seco, Pimenta e Orégano  
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trança Defumada com Tomate Seco, Pimenta e Orégano 
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trança Defumada 
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$37,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trufado com Requeijão
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$47,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trufado com Requeijão (Consultar Sabores)  
-                    </h2>
-                    <p class="peso">
-                        Peso: 650g
-                    </p>
-                    <p class="preço">
-                        R$52,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trufado com Requeijão Defumado  
-                    </h2>
-                    <p class="peso">
-                        Peso: 600g
-                    </p>
-                    <p class="preço">
-                        R$40,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trufado de Requeijão ao Vinho  
-                    </h2>
-                    <p class="peso">
-                        Peso: 600g
-                    </p>
-                    <p class="preço">
-                        R$40,00
-                    </p>
-                </div>
-            </div>
-
-            <div class="card_produto">
-                <img src="pictures/exemplo_queijo.jpg" class="foto_produto">
-                <div>
-                    <h2 class="nome_produto">
-                        Trufado de Requeijão com Tomate Seco e Azeitonas  
-                    </h2>
-                    <p class="peso">
-                        Peso: 600g
-                    </p>
-                    <p class="preço">
-                        R$40,00
-                    </p>
-                </div>
-            </div>
-
+      <h1 class="tipo_cardapio">Queijos</h1>
+
+      <div class="produtos">
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">
+              Desidratado ( Sabores: Provolone Puro, Provolone com Orégano,
+              Provolone com alho, Povolone com Lemon Peppers, Misto, Gouda,
+              Parmesão, Coalho)
+            </h2>
+            <p class="peso">Peso: 250g</p>
+            <p class="preço">R$25,00</p>
+          </div>
         </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">
+              Kit (Palito Branco, Palito Temperado, Provolone Defumado,
+              Provolone com Orégano e Provolone com Pimenta e Orégano)
+            </h2>
+            <p class="peso">Peso: 750g</p>
+            <p class="preço">R$50,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">
+              Kit com Salame (Provolone Defumado, Provolone com Orégano,
+              Provolone com Pimenta e Orégano e Lombo Defumado)
+            </h2>
+            <p class="peso">Peso: 850g</p>
+            <p class="preço">R$52,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/Kit Parmesão .jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">
+              Kit Parmesão (Parmesão Capa Preta, Parmesão Fresco, Parmesão
+              Defumado e Parmesão Temperado)
+            </h2>
+            <p class="peso">Peso: 850g</p>
+            <p class="preço">R$54,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Maturado Duetto</h2>
+            <p class="peso">Peso: 550g</p>
+            <p class="preço">R$43,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Caipira</h2>
+            <p class="peso">Peso: 900g</p>
+            <p class="preço">R$49,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Caipira Van-Ita</h2>
+            <p class="peso">Peso: 900g</p>
+            <p class="preço">R$49,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Frescal na Caixinha</h2>
+            <p class="peso">Peso: 550g</p>
+            <p class="preço">R$35,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/qminaspadrao.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Padrão</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Padrão Dulei</h2>
+            <p class="peso">Peso: 800g</p>
+            <p class="preço">R$50,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img
+            src="pictures/Minas Padrão com Alho Poró.jpg"
+            class="foto_produto"
+          />
+          <div>
+            <h2 class="nome_produto">Minas Padrão com Alho Poró</h2>
+            <p class="peso">Peso: 500g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Padrão Dulei</h2>
+            <p class="peso">Peso: 500g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Padrão Maturado</h2>
+            <p class="peso">Peso: 600g</p>
+            <p class="preço">R$39,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Padrão PJ</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$39,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Padrão Recheado com Requeijão</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$46,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Padrão Santa Rita</h2>
+            <p class="peso">Peso: 550g</p>
+            <p class="preço">R$39,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Minas Padrão Van-Ita</h2>
+            <p class="peso">Peso: 600g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Mussarela</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">
+              Napolitano (Parmesão Fresco, Tipo Reino, Tipo Prato e Provolone
+              Defumado)
+            </h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Nó Branco</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Nó Defumado</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Palito com Pimenta e Orégano</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Palito</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Parmesão ao Vinho</h2>
+            <p class="peso">Peso: 600g</p>
+            <p class="preço">R$44,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/Parmesão Capa Preta.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Parmesão Capa Preta</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$44,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Parmesão Defumado</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$44,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Parmesão Defumado Alagoas</h2>
+            <p class="peso">Peso: 550g</p>
+            <p class="preço">R$52,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/qParmesaoenvelhecido.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Parmesão Envelhecido</h2>
+            <p class="peso">Peso: 680g</p>
+            <p class="preço">R$44,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Parmesão Fresco</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Provolone com Orégano</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Provolone com Pimenta e Orégano</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Provolone com Salame</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Provolone Defumado com Alho</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Provolone Alagoa Rio Acima</h2>
+            <p class="peso">Peso: 950g</p>
+            <p class="preço">R$85,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Canastra Curado</h2>
+            <p class="peso">Peso: 1kg</p>
+            <p class="preço">R$50,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/Queijo Canastra Curado.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Canastra Curado</h2>
+            <p class="peso">Peso: 1kg</p>
+            <p class="preço">R$50,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Canastra Fresco</h2>
+            <p class="peso">Peso: 1kg</p>
+            <p class="preço">R$50,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Canastra Premiado Capão Grande</h2>
+            <p class="preço">R$115,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img
+            src="pictures/Queijo Canastra Premiado Johne .jpg .jpg"
+            class="foto_produto"
+          />
+          <div>
+            <h2 class="nome_produto">Queijo Canastra Premiado Johne</h2>
+            <p class="peso">Peso: 1kg</p>
+            <p class="preço">R$115,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img
+            src="pictures/Queijo Canastra Premiado Reinaldo .jpg"
+            class="foto_produto"
+          />
+          <div>
+            <h2 class="nome_produto">Queijo Canastra Premiado Reinaldo</h2>
+            <p class="peso">Peso: 1kg</p>
+            <p class="preço">R$115,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Coalho</h2>
+            <p class="peso">Peso: 600g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/Queijo Prato Cobocó .jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Prato Cobocó</h2>
+            <p class="peso">Peso: 500g</p>
+            <p class="preço">R$39,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/qtipobrie.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Tipo Brie</h2>
+            <p class="peso">Peso: 250g</p>
+            <p class="preço">R$33,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Tipo Colby Jack</h2>
+            <p class="peso">Peso: 500g</p>
+            <p class="preço">R$45,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Tipo Edam</h2>
+            <p class="peso">Peso: 350g</p>
+            <p class="preço">R$43,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/QTipoGorgonzola.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Tipo Gorgonzola</h2>
+            <p class="peso">Peso: 250g</p>
+            <p class="preço">R$30,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Tipo Gouda</h2>
+            <p class="peso">Peso: 350g</p>
+            <p class="preço">R$43,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Tipo Gruyère</h2>
+            <p class="peso">Peso: 450g</p>
+            <p class="preço">R$46,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Tipo Massdam</h2>
+            <p class="peso">Peso: 500g</p>
+            <p class="preço">R$40,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Tipo Morbier</h2>
+            <p class="peso">Peso: 500g</p>
+            <p class="preço">R$42,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/Queijo Tipo Reino .jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Queijo Tipo Reino</h2>
+            <p class="peso">Peso: 350g</p>
+            <p class="preço">R$43,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Requeijão com Raspas em Barra</h2>
+            <p class="peso">Peso: 550g</p>
+            <p class="preço">R$39,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Requeijão em Barra</h2>
+            <p class="peso">Peso: 550g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Requeijão Pote</h2>
+            <p class="peso">Peso: 400g</p>
+            <p class="preço">R$25,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Ricota</h2>
+            <p class="peso">Peso: 600g</p>
+            <p class="preço">R$25,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Romeu e Julieta</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Trança ao Vinho</h2>
+            <p class="peso">Peso: 630g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Trança Branca</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Trança com Tomate Seco e Alho</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">
+              Trança com Tomate Seco, Pimenta e Orégano
+            </h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img
+            src="pictures/Trança Defumada com Tomate Seco, Pimenta e Orégano.jpg"
+            class="foto_produto"
+          />
+          <div>
+            <h2 class="nome_produto">
+              Trança Defumada com Tomate Seco, Pimenta e Orégano
+            </h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Trança Defumada</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$37,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Trufado com Requeijão</h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$47,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">
+              Trufado com Requeijão (Consultar Sabores)
+            </h2>
+            <p class="peso">Peso: 650g</p>
+            <p class="preço">R$52,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Trufado com Requeijão Defumado</h2>
+            <p class="peso">Peso: 600g</p>
+            <p class="preço">R$40,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">Trufado de Requeijão ao Vinho</h2>
+            <p class="peso">Peso: 600g</p>
+            <p class="preço">R$40,00</p>
+          </div>
+        </div>
+
+        <div class="card_produto">
+          <img src="pictures/exemplo_queijo.jpg" class="foto_produto" />
+          <div>
+            <h2 class="nome_produto">
+              Trufado de Requeijão com Tomate Seco e Azeitonas
+            </h2>
+            <p class="peso">Peso: 600g</p>
+            <p class="preço">R$40,00</p>
+          </div>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
