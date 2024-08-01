@@ -178,9 +178,18 @@ a:hover {
   .nav-list li:nth-child(3) a {
     transition: 0.5s 0.6s;
   }
+
   .nav-list li:nth-child(4) a {
       transition: 0.5s 0.8s;
     }
+
+  .nav-list li:nth-child(5) a {
+    transition: 0.5s 1.0s;
+  }
+
+  .nav-list li:nth-child(6) a {
+    transition: 0.5s 1.2s;
+  }
 
   /* Estilos ativos */
 
