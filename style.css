@@ -165,7 +165,7 @@ a:hover {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: var(--cor--primaria);
     clip-path: circle(100px at 90% -15%);
     transition: 1s ease-out;
