@@ -21,6 +21,7 @@
   background: none;
   border: none;
   cursor: pointer;
+  display: none;
 }
 
 .contato img {
@@ -231,6 +232,10 @@ a:hover {
   .nav.active .hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+
+  .contato {
+    display: block;
   }
 }
 
